@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d57b45c-ba82-41f0-9a87-300d4c83d214" name="Changes" comment="added ability to read in numbers and store them for use in future methods  and added a switch to chose methods to execute&#10;&#10;added Two numbers method added">
+    <list default="true" id="0d57b45c-ba82-41f0-9a87-300d4c83d214" name="Changes" comment="added the subtract method &#10;&#10;which takes the second number from the first number">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ie/atu/CalcWeek4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/atu/CalcWeek4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +78,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.CalcWeek4" />
+        <item itemvalue="Application.CalcWeek4" />
       </list>
     </recent_temporary>
   </component>
@@ -90,7 +92,7 @@
       <updated>1727684178258</updated>
       <workItem from="1727684178990" duration="3073000" />
       <workItem from="1727687270057" duration="52000" />
-      <workItem from="1727687361688" duration="992000" />
+      <workItem from="1727687361688" duration="2128000" />
     </task>
     <task id="LOCAL-00001" summary="new project">
       <created>1727684374123</created>
@@ -106,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727687631871</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added the subtract method &#10;&#10;which takes the second number from the first number">
+      <created>1727688509573</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727688509573</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,7 +132,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="subtract" />
+                        <option value="multiply" />
                       </list>
                     </value>
                   </entry>
@@ -138,6 +147,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new project" />
     <MESSAGE value="added ability to read in numbers and store them for use in future methods  and added a switch to chose methods to execute&#10;&#10;added Two numbers method added" />
-    <option name="LAST_COMMIT_MESSAGE" value="added ability to read in numbers and store them for use in future methods  and added a switch to chose methods to execute&#10;&#10;added Two numbers method added" />
+    <MESSAGE value="added the subtract method &#10;&#10;which takes the second number from the first number" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the subtract method &#10;&#10;which takes the second number from the first number" />
   </component>
 </project>
