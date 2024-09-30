@@ -14,13 +14,17 @@ public class CalcWeek4 {
         double SecondNum=Scan1.nextDouble();
         System.out.println("you entered " + SecondNum);
 
-        System.out.println("please enter an operation (add)");
+        System.out.println("please enter an operation (add,subtract)");
         String operation= Scan1.next();
 
         switch (operation) {
 
             case "add":
                 add(FirstNum,SecondNum);
+                break;
+
+            case "subtract":
+                subtract(FirstNum,SecondNum);
                 break;
 
             default:  System.out.println("invalid operation");
@@ -37,4 +41,11 @@ public static void add(double Firstnum, double Secondnum){
 
 }
 
+public static void subtract(double Firstnum, double Secondnum){
+        double result = Firstnum-Secondnum;
+        System.out.println("the result is " +result );
+
+
+
+}
 }
