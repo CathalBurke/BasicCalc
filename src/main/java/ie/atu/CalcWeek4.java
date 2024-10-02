@@ -76,6 +76,7 @@ public static void multiply(double Firstnum, double Secondnum){
       double result= Math.pow(FirstNum, SecondNum);
       System.out.println(FirstNum +  "      raised to the power of      " + SecondNum     +result);
 
+
     }
 
 
