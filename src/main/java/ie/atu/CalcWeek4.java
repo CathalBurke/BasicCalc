@@ -14,7 +14,7 @@ public class CalcWeek4 {
         double SecondNum=Scan1.nextDouble();
         System.out.println("you entered " + SecondNum);
 
-        System.out.println("please enter an operation (add,subtract,multiply)");
+        System.out.println("please enter an operation (add,subtract,multiply,divide)");
         String operation= Scan1.next();
 
         switch (operation) {
@@ -30,6 +30,10 @@ public class CalcWeek4 {
             case "multiply":
                 multiply(FirstNum,SecondNum);
                 break;
+            case "divide":
+                divide(FirstNum,SecondNum);
+                break;
+
 
             default:  System.out.println("invalid operation");
             break;
@@ -52,5 +56,11 @@ public static void subtract(double Firstnum, double Secondnum){
 
 public static void multiply(double Firstnum, double Secondnum){
         double result = Firstnum * Secondnum;
-        System.out.println("the result is " +result );}
+        System.out.println("the result is " +result );
+}
+
+public static void divide(double FirstNum , double SecondNum) {
+    double result =  FirstNum / SecondNum;
+    System.out.println("the result is " +result );
+    }
 }
