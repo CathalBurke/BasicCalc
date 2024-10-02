@@ -14,7 +14,7 @@ public class CalcWeek4 {
         double SecondNum=Scan1.nextDouble();
         System.out.println("you entered " + SecondNum);
 
-        System.out.println("please enter an operation (add,subtract,multiply,divide)");
+        System.out.println("please enter an operation (add,subtract,multiply,divide,exponential)");
         String operation= Scan1.next();
 
         switch (operation) {
@@ -33,6 +33,11 @@ public class CalcWeek4 {
             case "divide":
                 divide(FirstNum,SecondNum);
                 break;
+
+            case "exponential":
+                exponential(FirstNum, SecondNum);
+                break;
+
 
 
             default:  System.out.println("invalid operation");
@@ -59,8 +64,28 @@ public static void multiply(double Firstnum, double Secondnum){
         System.out.println("the result is " +result );
 }
 
-public static void divide(double FirstNum , double SecondNum) {
-    double result =  FirstNum / SecondNum;
-    System.out.println("the result is " +result );
+    public static void divide(double FirstNum, double SecondNum) {
+        if (SecondNum != 0) {
+            double result = FirstNum / SecondNum;
+            System.out.println("The result is " + result);
+        } else {
+            System.out.println("Cannot divide by zero!");
+        }
     }
+    public static void exponential(double FirstNum, double SecondNum) {
+      double result= Math.pow(FirstNum, SecondNum);
+      System.out.println(FirstNum +  "      raised to the power of      " + SecondNum     +result);
+
+    }
+
+
+
+
+
+
 }
+
+
+
+
+
